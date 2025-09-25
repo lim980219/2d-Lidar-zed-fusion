@@ -53,12 +53,12 @@ ros2 launch zed_wrapper zed_camera.launch.py
 ```plaintext
 ros2 run zed_lidar_fusion fusion_node
 ```
-## 📌 실행 순서 다이어그램
-<img width="3180" height="1592" alt="image" src="https://github.com/user-attachments/assets/15f52809-912a-4e51-93a3-985c25e1db87" />
+## 📌 실행 터미널
+<img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/15f52809-912a-4e51-93a3-985c25e1db87" />
 
 ## 🎯 실행 결과
 LiDAR 포인트가 ZED 카메라 영상 위에 투영된 모습
-<img width="1590" height="1266" alt="image" src="https://github.com/user-attachments/assets/55482f9c-8056-4eb5-8fc4-68315a42b09c" />
+<img width="1500" height="1000" alt="image" src="https://github.com/user-attachments/assets/55482f9c-8056-4eb5-8fc4-68315a42b09c" />
 
 
 ## 📐 캘리브레이션 방법
