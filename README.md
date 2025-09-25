@@ -58,7 +58,7 @@ ros2 run zed_lidar_fusion fusion_node
 
 ## 🎯 실행 결과
 LiDAR 포인트가 ZED 카메라 영상 위에 투영된 모습
-<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/55482f9c-8056-4eb5-8fc4-68315a42b09c" />
+<img width="700" height="350" alt="image" src="https://github.com/user-attachments/assets/55482f9c-8056-4eb5-8fc4-68315a42b09c" />
 
 
 ## 📐 캘리브레이션 방법
