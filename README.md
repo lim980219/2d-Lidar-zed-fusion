@@ -1,7 +1,7 @@
 # 2D LiDAR & ZED Camera Fusion
 **Ubuntu 22.04 / ROS2 Humble**
 
-본 프로젝트는 **2D LiDAR (RPLiDAR / SLLiDAR)**와 **ZED Stereo Camera**를 활용하여 센서 데이터를 동기화하고, 카메라 영상 위에 LiDAR 포인트를 투영(fusion)하는 ROS2 기반 패키지입니다.  
+본 프로젝트는 **2D LiDAR RPLiDAR**와 **ZED Stereo Camera**를 활용하여 센서 데이터를 동기화하고, 카메라 영상 위에 LiDAR 포인트를 투영(fusion)하는 ROS2 기반 패키지입니다.  
 
 ---
 
@@ -65,7 +65,7 @@ ros2 run zed_lidar_fusion fusion_node
 카메라와 라이다의 좌표계를 일치시키기 위해 Extrinsic Parameter를 추정해야 합니다.
 최소 4쌍 이상의 대응점이 필요합니다. (라이다 포인트 ↔ 카메라 이미지 좌표)
 
-[권장 방법]
+**[권장 방법]**
 1. 라이다 레이저가 사물과 만나는 지점에 포스트잇 부착 → 카메라에서 쉽게 확인 가능
 2. 고정된 이미지(예: 사물함 모서리)에서 특징점을 선택하면 정확도 향상
 3. 대응점 쌍을 이용해 solvePnP로 Extrinsic Parameter (R, t) 계산
