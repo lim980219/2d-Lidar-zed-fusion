@@ -60,7 +60,7 @@ ros2 run zed_lidar_fusion fusion_node
 <img width="500" height="350" alt="image" src="https://github.com/user-attachments/assets/55482f9c-8056-4eb5-8fc4-68315a42b09c" />
 
 ## rqt_graph
-![Uploading image.png…]()
+<img width="2877" height="779" alt="image" src="https://github.com/user-attachments/assets/fa77a356-51a1-4c91-ae4e-b6a608eca5f2" />
 
 
 
